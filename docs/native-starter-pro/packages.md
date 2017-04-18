@@ -4,7 +4,7 @@ _package.json_
 
 <pre class="line-numbers"><code class="language-json">
 {
-  "name": "nativestarterpro",
+  "name": "nativestarterpro7.0",
   "version": "7.0.0",
   "private": true,
   "devDependencies": {
