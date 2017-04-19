@@ -2,29 +2,6 @@
 
 ###Testing
 
-#### Bug Fixes
-
-*   **Package:**
-    *   Fixed **Color** package dependency
-    *   Excluded **rx** package
-*   **Memory Leak:** This has been fixed by implementation of Navigation Experimental.
-*   **BackAndroid:** App exits appropriately on Android.
-
-#### Upgraded Features
-
-*   Upgraded [**NativeBase**](https://github.com/GeekyAnts/NativeBase) from 0.5.8 to 0.5.11
-*   Upgraded [**React**](https://facebook.github.io/react/) from 15.3.1 to 15.3.2
-*   Upgraded [**React Native**](https://github.com/facebook/react-native) from 0.32.0 to 0.35.0
-*   Upgraded [**React Native CodePush**](https://github.com/Microsoft/react-native-code-push) from 1.14.6-beta to 1.15.0-beta
-*   **ES Lint:** Configured ESLint (airbnb) to enforce coding style.
-*   **Drawer:** Added shadow for drawer on open.
-
-#### New Features
-
-*   **Navigation Experimental:** Integrated Navigation Experimental.
-
-* * *
-
 ### 5.0.0
 
 #### Upgraded Features
