@@ -22,15 +22,6 @@ _package.json_
     "mocha": "^2.5.3"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
-  "scripts": {
-    "postinstall": "remotedev-debugger",
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "eslint": "eslint",
-    "test": "node node_modules/jest/bin/jest.js --watch"
-  },
   "upstreamRepo": "git@gitstrap.com:strapmobile/NativeStarterPro-seed.git",
   "jest": {
     "preset": "jest-expo"
