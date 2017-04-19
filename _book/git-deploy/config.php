@@ -5,4 +5,3 @@ define('DIR','https://github.com/adityak16/gitwebhook/');
 define('BRANCH','refs/heads/master');
 define('LOGFILE', "log.txt");
 define('GIT', '/usr/bin/git');
-?>
