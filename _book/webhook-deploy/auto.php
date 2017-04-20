@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<?php echo $tmp; ?>
+<?php echo $tmp ?>
 </pre>
 </body>
 </html>
