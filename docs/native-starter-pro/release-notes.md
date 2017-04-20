@@ -121,34 +121,3 @@
 
 
 * * *
-
-### 2.1
-
-#### New Features
-
-*   Added [react-native-modalbox](https://github.com/maxs15/react-native-modalbox) 1.3.1, to outline modal effortlessly, customize and imposing the 'swipe down to close' function.
-*   Added [react-native-spinkit](https://github.com/maxs15/react-native-spinkit) 0.0.7, that provides collection of animated loading indicators.
-*   Added Native Picker component, presenting choice of gadgets on tap at the picker.
-
-
-* * *
-
-### 2.0
-
-#### Upgraded Features
-
-*   Upgraded to [React Native](https://facebook.github.io/react-native/) 0.19
-*   ES5 converted to ES6
-*   Upgraded [react-native-drawer](https://github.com/root-two/react-native-drawer) to 1.16.6
-
-#### New Features
-
-*   Added [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) 2.1.8, to define your screens/routes and animation transitions from one central location.
-*   Added [react-native-selectme](https://www.npmjs.com/package/react-native-selectme) 1.0.0, to define simple and customizable dropdown.
-
-#### Bug Fixes
-
-*   Removed flux dependency, so the user can update to new React Native versions without the app crashing.
-
-
-* * *
