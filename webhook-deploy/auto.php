@@ -1,21 +1,30 @@
-<!DOCTYPE html>
-<html>
-<body>
+<?php
+	/**
+	 * GIT DEPLOYMENT SCRIPT
+	 *
+	 * Used for automatically deploying websites via github or bitbucket, more deets here:
+	 *
+	 *		https://gist.github.com/1809044
+	 */
+	// The commands
+	$commands = 'git pull'
+	// Run the commands for output
+	// foreach($commands AS $command){
+		// Run it
+		$tmp = shell_exec($commands);
+		// Output
+	}
+	// Make it pretty for manual user access (and why not?)
+?>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta charset="UTF-8">
 	<title>GIT DEPLOYMENT SCRIPT</title>
 </head>
-<?php
- // Prevent accidental XSS
- header("Content-type: text/html"); 
- // Run the script - make sure that your SSH key is set with *no* password
-  if ( $_POST['payload'] ) {
-  $tmp = shell_exec("./pull.sh"); 
-  echo "<h1>".$tmp."</h1>";
-  // $output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
-  // $output .= htmlentities(trim($tmp)) . "\n";
- }
-?>
+<body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
+
+<?php echo $tmp; ?>
+</pre>
 </body>
 </html>
