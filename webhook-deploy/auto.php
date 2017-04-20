@@ -5,4 +5,3 @@
  if ( $_POST['payload'] ) {
   shell_exec("./pull.sh"); 
 }
-?>
