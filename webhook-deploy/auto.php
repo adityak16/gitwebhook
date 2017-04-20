@@ -1,12 +1,12 @@
 <?php
  // Prevent accidental XSS
- // header("Content-type: application/json"); 
+ header("Content-type: text/html"); 
  // Run the script - make sure that your SSH key is set with *no* password
- // if ( $_POST['payload'] ) {
+  if ( $_POST['payload'] ) {
   $tmp = shell_exec("./pull.sh"); 
-  $output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
-  $output .= htmlentities(trim($tmp)) . "\n";
-
+  // $output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
+  // $output .= htmlentities(trim($tmp)) . "\n";
+ }
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
@@ -17,7 +17,7 @@
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <pre>
-<?php echo $output; ?>
+<?php echo $tmp; ?>
 </pre>
 </body>
 </html>
