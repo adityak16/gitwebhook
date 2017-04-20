@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta charset="UTF-8">
+	<title>GIT DEPLOYMENT SCRIPT</title>
+</head>
 <?php
  // Prevent accidental XSS
  header("Content-type: text/plain"); 
